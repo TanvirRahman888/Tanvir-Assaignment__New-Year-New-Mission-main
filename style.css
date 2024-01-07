@@ -5,12 +5,13 @@
 /* Header section Style*/
 .header {
     width: 83%;
+    height: 100%;
     margin: 0 auto;
     background-image: url("resources/Banner Image.png");
     background-repeat: no-repeat;
     background-size: 100%;
     border-radius: 16px;
-    /* opacity: 75%; */
+    
 }
 
 .header .welcome-message {
@@ -113,10 +114,12 @@
 }
 
 .invitation-place {
+    height: 100%;
     margin-top: 120px;
     text-align: center;
     margin-bottom: 120px;
     background-image: linear-gradient(180deg, rgba(255, 0, 0, 0.10) 0%, rgba(255, 0, 0, 0.00) 100%);
+    border-radius: 16px;
     padding-top: 100px;
 
 }
@@ -294,11 +297,12 @@
     font-style: normal;
     font-weight: 500;
     line-height: 32px;
-    /* 160% */
     width: 60%;
     margin: 0 auto;
 }
-.functional .images{
+
+/* I can't fix this section */
+.functional .images {
     background-image: url("resources/Group 75.png"), url("resources/Rectangle 1.png"), url("resources/Group 44.png"), url("resources/Rectangle 2.png");
     background-size: 45%, 27%, 25%, 100%;
     background-repeat: no-repeat;
@@ -307,5 +311,54 @@
     margin: 100px auto;
 }
 
+.portfolio {
+    text-align: left;
+    margin-bottom: 48px;
+}
+
+.portfolio h4 {
+    color: #F00;
+    font-family: Inter;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    margin: 0 auto;
+
+}
+
+.portfolio h3 {
+    color: #070211;
+    font-family: Merriweather;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: normal;
+    text-transform: capitalize;
+    margin: 16px auto 22px;
+
+}
+
+.portfolio p {
+    color: rgba(7, 2, 17, 0.60);
+    font-family: Inter;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 32px;
+    margin: 0;
+    width: 896px;
+
+}
+.portfolio-image{
+    display: flex;
+
+}
+.portfolio-image img{
+    padding: 12px 24px;
+    padding-left: 0;
+    border-radius: 16px;
+    justify-content: center;
+}
 
 .footer {}
