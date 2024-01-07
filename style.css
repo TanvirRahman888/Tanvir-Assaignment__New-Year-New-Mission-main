@@ -70,11 +70,13 @@
 }
 
 .invitation .invitation-message {
-    background-image: url("resources/Vectorrr.png");
-    background-repeat: no-repeat;
-    background-size: 100%;
+    background-image:url("resources/Group 70.png"), url("resources/Vectorrr.png");
+    background-repeat: no-repeat, no-repeat;
+    background-size: 25%, 100%;
+    background-position: right;
     border-radius: 16px;
     text-align: left;
+    ba
 }
 
 .invitation .invitation-message h1 {
