@@ -127,7 +127,7 @@
 
 }
 
-.invitation-place .place {
+.invitation .invitation-place .place {
     color: #070211;
     font-family: Inter;
     font-size: 32px;
@@ -139,7 +139,7 @@
 
 }
 
-.invitation-place .place .place-highlight {
+.invitation .invitation-place .place .place-highlight {
     color: #F00;
     text-align: center;
     font-family: Inter;
@@ -232,8 +232,8 @@
     font-style: normal;
     font-weight: 700;
     line-height: normal;
-    margin: 0 0;
-
+    text-align: left;
+    margin: 0 68px;
 }
 
 .comming-soon-right p {
@@ -251,7 +251,7 @@
 .comming-soon-right img {
     width: 140px;
     height: 140px;
-    flex-shrink: 0;
+    margin-right: 125px;
 }
 
 .functional {
